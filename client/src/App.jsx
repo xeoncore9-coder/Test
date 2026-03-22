@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard';
 import EditorPage from './pages/EditorPage';
 import TMPage from './pages/TMPage';
 import GlossaryPage from './pages/GlossaryPage';
+import ThemeToggle from './components/ThemeToggle';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Link to="/tm">Translation Memory</Link>
           <Link to="/glossary">Glossary</Link>
         </nav>
+        <ThemeToggle />
       </header>
       <main>
         <Routes>
